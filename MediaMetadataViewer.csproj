@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Icons\Windowing\Close.png" />
+    <None Remove="Resources\Icons\Windowing\Minimize.png" />
+    <None Remove="Resources\Icons\Windowing\WindowOne.png" />
+    <None Remove="Resources\Icons\Windowing\WindowTwo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="kWindows\" />
+    <Folder Include="Style\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FFMediaToolkit" Version="4.5.1" />
+    <PackageReference Include="Prism.Core" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Icons\Windowing\Close.png" />
+    <Resource Include="Resources\Icons\Windowing\Minimize.png" />
+    <Resource Include="Resources\Icons\Windowing\WindowOne.png" />
+    <Resource Include="Resources\Icons\Windowing\WindowTwo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Windows\MainWindow.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:HyperbiusEdit">
+
+
+    <!-- ==================================================================================================================== -->
+    <!-- Background Brushes -->
+    <!-- ==================================================================================================================== -->
+
+    <SolidColorBrush x:Key="BG_Titlebar" Color="#232323" />
+    <SolidColorBrush x:Key="BG_Toolbar2" Color="#2F2F2F" />
+    <SolidColorBrush x:Key="BG_Component" Color="#353535" />
+    <SolidColorBrush x:Key="BG_Button" Color="#3D3D3D" />
+    <SolidColorBrush x:Key="BG_SubWindow" Color="#3E3E3E" />
+    <SolidColorBrush x:Key="BG_ClickedItem" Color="#1F1F1F" />
+    <SolidColorBrush x:Key="BG_CheckBox" Color="#505050" />
+
+    <SolidColorBrush x:Key="Border_Toolbar" Color="#1C1C1C" />
+    <SolidColorBrush x:Key="Border_Component" Color="#212121" />
+    <SolidColorBrush x:Key="Border_Control" Color="#2F2F2F" />
+    <SolidColorBrush x:Key="Border_Component_Error" Color="#AAFF2C15" />
+
+    <SolidColorBrush x:Key="Combobox_MouseOverItem" Color="#2D3C48" />
+    <SolidColorBrush x:Key="Combobox_SelectedItem" Color="#5E8CCC" />
+
+    <SolidColorBrush x:Key="BG_Menu" Color="#1C1C1C" />
+    <SolidColorBrush x:Key="BG_Menu_Selected" Color="#666666" />
+
+    <SolidColorBrush x:Key="Shadow_Dark" Color="#4E4E4E" />
+
+    <SolidColorBrush x:Key="Clickable_Component" Color="#818181" />
+    <SolidColorBrush x:Key="Clickable_Component_MouseOver" Color="#CCCCCC" />
+    <SolidColorBrush x:Key="Clickable_Component_Clicked" Color="#E5E5E5" />
+
+    <SolidColorBrush x:Key="CloseButton_Red" Color="#AAFF2C15" />
+
+    <LinearGradientBrush x:Key="BG_Toolbar" StartPoint="0.5, 0" EndPoint="0.5, 1">
+        <GradientStop Color="#383838" Offset="0" />
+        <GradientStop Color="#2F2F2F" Offset="1" />
+    </LinearGradientBrush>
+
+    <!-- ==================================================================================================================== -->
+    <!-- Foreground Brushes -->
+    <!-- ==================================================================================================================== -->
+
+    <SolidColorBrush x:Key="FG_Component" Color="#B9B9B9" />
+    <SolidColorBrush x:Key="FG_Control_Disabled" Color="#979797" />
+    <SolidColorBrush x:Key="FG_Interactable" Color="#F9F9F9" />
+    <SolidColorBrush x:Key="FG_Toolbar" Color="#F0F0F0" />
+    <SolidColorBrush x:Key="FG_Orange" Color="#CCE8AE50" />
+    <SolidColorBrush x:Key="FG_Purple" Color="#CCBF50E8" />
+
+</ResourceDictionary>
